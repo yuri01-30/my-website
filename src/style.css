@@ -8,3 +8,6 @@
 @media(prefers-reduced-motion:reduce){.floating-comment{animation-play-state:paused;left:8%;}}
 .close-all{width:31px;height:29px;padding:0;font:bold 20px/20px Tahoma;flex-shrink:0}
 .close-all:disabled{color:#8b9189;cursor:default}
+.visitor-counter{right:5%;top:34%;display:flex;flex-direction:column;align-items:flex-end;gap:0;padding:0;border:0;background:none;box-shadow:none;font-size:16px;line-height:1.05;letter-spacing:0;text-align:right}
+.visitor-counter strong{font-size:60px;line-height:.95;letter-spacing:2px}
+@media(max-width:640px){.visitor-counter{right:4%;font-size:13px}.visitor-counter strong{font-size:46px}}
